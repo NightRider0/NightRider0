@@ -63,7 +63,7 @@ case $(( $RANDOM % 34 + 1 )) in
  ;;
 
  14)
-  discord "Whoever droped there evelope labled \"awkward and embarrassing nudes\" we posted them randomly around the ship!"
+  discord "Whoever droped there envelope labled \"awkward and embarrassing nudes\" we have taken the liberty of posting them randomly around the ship!"
  ;;
  
  15)
