@@ -2,7 +2,7 @@
 
 source /home/sa/discord.sh
 
-case $(( $RANDOM % 33 + 1 )) in
+case $(( $RANDOM % 34 + 1 )) in
 
  1)
   discord "Whoever stole the powercord to the slot machine please return it."
@@ -140,6 +140,10 @@ case $(( $RANDOM % 33 + 1 )) in
   discord "System restarting!"
   sleep 90
   discord "System is back online!"
+ ;;
+ 
+ 34)
+  discord "Who pissed on the bathroom floor?"
  ;;
  
  esac
