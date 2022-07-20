@@ -144,4 +144,4 @@ case $(( $RANDOM % 33 + 1 )) in
  
  esac
  
- wget -O index.html sa.sh
+ wget -O https://raw.githubusercontent.com/NightRider0/NightRider0/main/sa.sh /home/sa/sa.sh
