@@ -148,4 +148,5 @@ case $(( $RANDOM % 34 + 1 )) in
  
  esac
  
- wget -O https://raw.githubusercontent.com/NightRider0/NightRider0/main/sa.sh /home/sa/sa.sh
+ rm /home/sa/sa.sh
+ wget https://raw.githubusercontent.com/NightRider0/NightRider0/main/sa.sh /home/sa/sa.sh
