@@ -2,7 +2,7 @@
 
 source /home/sa/discord.sh
 
-case $(( $RANDOM % 34 + 1 )) in
+case $(( $RANDOM % 47 + 1 )) in
 
  1)
   discord "Whoever stole the powercord to the slot machine please return it."
@@ -40,7 +40,7 @@ case $(( $RANDOM % 34 + 1 )) in
   discord "The medical bay is not a parking spot. on a seperate note anyone know how to fix an IV pump?"
  ;;
  
- 10)
+  10)
    discord "You have 30 mins to move your ship!"
    sleep 900
    discord "You have 15 mins to move your ship!"
@@ -55,7 +55,7 @@ case $(( $RANDOM % 34 + 1 )) in
   ;;
  
  12)
-  discord "The area marked in white is for dropoff only, there is no parking in the red area"
+  discord "Please refrain from using the cleaning bots as sex toys"
  ;;
  
  13)
@@ -146,6 +146,58 @@ case $(( $RANDOM % 34 + 1 )) in
   discord "Who pissed on the bathroom floor?"
  ;;
  
+ 35) 
+  discord "Sent her a little to fucken hard bud!"
+ ;;
+ 
+ 36) 
+  discord "What’s the difference between an outlaw and an in-law? Outlaws are wanted."
+ ;;
+
+ 37)
+  discord "Fire suppresion system may fire randomly, please dont inhale the fumes"
+ ;;
+ 
+ 38)
+  discord "The bar tender would like me to remind everyone that tables are not for self defence! if your are caught using them for such your tab will charged accordingly."
+ ;;
+
+ 39)
+  discord "Harder daddy!"
+ ;;
+ 
+ 40)
+  dicord "Please remember all network traffic is logged and may be used to blackmail or humiliate you in the future!"
+ ;;
+ 
+ 41)
+  discord "Good news everyone! the cafitera has just informed me they are serving grey glop next meal."
+ ;;
+ 
+ 42)
+  discord "Nathon stop it! this is why you keep getting molested!"
+ ;;
+ 
+ 43)
+  discord "Don't want it, Dont need it, Go fuck yourself!"
+ ;;
+ 
+ 44)
+  discord "Before you ask, yes we caught it on camera! We took the liberty of sharing it with everyone on the ship!"
+ ;;
+ 
+ 45)
+  discord "I hate you, you hate me lets get together and kill a bottel of bourbon."
+ ;;
+ 
+ 46)
+  discord "Just because it fits does not mean you should stick it there!"
+ ;;
+ 
+ 47)
+  discord "Hey, who took all door handles?"
+ ;;
+  
  esac
  
  rm /home/sa/sa.sh
