@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source /home/sa/discord.sh
-
+Random
 case $(( $RANDOM % 47 + 1 )) in
 
  1)
