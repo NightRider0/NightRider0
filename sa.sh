@@ -17,7 +17,7 @@ case $(( $RANDOM % 47 + 1 )) in
   ;;
   
  4)
-  dicordd "The restroom in the main hanger is flooding pelase avoid trying to flush used shell casings"
+  discord "The restroom in the main hanger is flooding pelase avoid trying to flush used shell casings"
   ;;
   
  5)
@@ -25,7 +25,7 @@ case $(( $RANDOM % 47 + 1 )) in
   ;;
  
  6)
-  discrod "If you hear a humming coming from crates do not be alarmed. We repeat. Do not be alarmed. Expect sweet things to be available in shops in the future."
+  discord "If you hear a humming coming from crates do not be alarmed. We repeat. Do not be alarmed. Expect sweet things to be available in shops in the future."
  ;;
  
  7)
@@ -40,7 +40,7 @@ case $(( $RANDOM % 47 + 1 )) in
   discord "The medical bay is not a parking spot. on a seperate note anyone know how to fix an IV pump?"
  ;;
  
-  10)
+ 10)
    discord "You have 30 mins to move your ship!"
    sleep 900
    discord "You have 15 mins to move your ship!"
@@ -105,7 +105,7 @@ case $(( $RANDOM % 47 + 1 )) in
  ;;
  
  24)
-  dicord "Yo mama\!!"
+  discord "Yo mama\!!"
  ;;
  
  25)
@@ -167,7 +167,7 @@ case $(( $RANDOM % 47 + 1 )) in
  ;;
  
  40)
-  dicord "Please remember all network traffic is logged and may be used to blackmail or humiliate you in the future!"
+  discord "Please remember all network traffic is logged and may be used to blackmail or humiliate you in the future!"
  ;;
  
  41)
