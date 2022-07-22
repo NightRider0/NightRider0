@@ -4,7 +4,7 @@ source /home/sa/discord.sh
 
 Random
 
-case $(( $RANDOM % 47 + 1 )) in
+case $(( $RANDOM % 60 + 1 )) in
 
  1)
   discord "Whoever stole the powercord to the slot machine please return it."
@@ -219,7 +219,39 @@ case $(( $RANDOM % 47 + 1 )) in
  52)
   discord "Do not melt Styrofoam with Gasoline and mix with Motor Oil. This makes Napalm."
  ;;
-  
+ 
+ 53)
+  discord "Today's weather is partially cloudy. Not because we simulate weather, but because something is on fire. Yes we are on it."
+ ;;
+ 
+ 54)
+  discord "Today's uplifting message of the day is, \"Gun\'s don't kill people. We are all immune to bullets and it is a miracle.\""
+ ;;
+ 
+ 55)
+  discord "I expected big tiddies!"
+ ;;
+ 
+ 56)
+  discord "Bitchs love cannons!"
+ ;;
+ 
+ 57)
+  discord "Hey kids, wanna see a dead body?"
+ ;;
+ 
+ 58)
+  discord "Good News Everyone! We will be power cycling the gravity generator with no real reason for the next serveral hours!"
+ ;;
+
+ 59)
+  discord "Whoever picked the music in the elevator, your mom is a hoe!"
+ ;;
+ 
+ 60)
+  discord "The cleaning bots have just informed me that if they find one more dilldo shoved in the kitchen sink drain they are going on strike"
+ ;;
+ 
  esac
  
  rm /home/sa/sa.sh
