@@ -1,7 +1,9 @@
 #!/bin/bash
 
 source /home/sa/discord.sh
+
 Random
+
 case $(( $RANDOM % 47 + 1 )) in
 
  1)
@@ -196,6 +198,26 @@ case $(( $RANDOM % 47 + 1 )) in
  
  47)
   discord "Hey, who took all door handles?"
+ ;;
+ 
+ 48)
+  discord "I seen that you son of a bitch"
+ ;;
+ 
+ 49)
+  discord "Can someone return my lunch? Whoever took it, I will find you. I have a set of skills…oh—wait, I found it. Carry on"
+ ;;
+ 
+ 50)
+  discord "Shane, quit offering extended warranties on the fried chicken -Managment"
+ ;;
+ 
+ 51)
+  discord "A message from Maintenance: If you are taking cleaning matters into your own hands, please do not mix Ammonia and Bleach. This creates Mustard Gas. I repeat, do not mix Ammonia and Bleach"
+ ;;
+ 
+ 52)
+  discord "Do not melt Styrofoam with Gasoline and mix with Motor Oil. This makes Napalm."
  ;;
   
  esac
