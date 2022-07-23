@@ -4,7 +4,7 @@ source /home/sa/discord.sh
 
 Random
 
-case $(( $RANDOM % 60 + 1 )) in
+case $(( $RANDOM % 66 + 1 )) in
 
  1)
   discord "Whoever stole the powercord to the slot machine please return it."
@@ -250,6 +250,30 @@ case $(( $RANDOM % 60 + 1 )) in
  
  60)
   discord "The cleaning bots have just informed me that if they find one more dilldo shoved in the kitchen sink drain they are going on strike"
+ ;;
+ 
+ 61)
+  discord "I was just informed there is a duck in the lost and found, whoever misplaced there duck please come and claim it!"
+ ;;
+ 
+ 62)
+  discord "Dirty bitch work the shaft!"
+ ;;
+ 
+ 63)
+  discord "Dick waffle!"
+ ;;
+ 
+ 64)
+  discord "Get out of me boob!"
+ ;;
+ 
+ 65)
+  discord "We don't swim in your toilet, please dont pee in our pool"
+ ;;
+ 
+ 66)
+  discord "We have decided to disable the power to room $(( $RANDOM % 10 + 1 )) should be back on in like 12 hours"
  ;;
  
  esac
