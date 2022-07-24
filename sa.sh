@@ -4,7 +4,7 @@ source /home/sa/discord.sh
 
 Random
 
-case $(( $RANDOM % 66 + 1 )) in
+case $(( $RANDOM % 67 + 1 )) in
 
  1)
   discord "Whoever stole the powercord to the slot machine please return it."
@@ -274,6 +274,18 @@ case $(( $RANDOM % 66 + 1 )) in
  
  66)
   discord "We have decided to disable the power to room $(( $RANDOM % 10 + 1 )) should be back on in like 12 hours"
+ ;;
+ 
+ 65)
+  discord "So how good are you at anal?"
+ ;;
+ 
+ 66)
+  discord "There is no one alive today that can describe my sexual preference!"
+ ;;
+ 
+ 67)
+  discord "With enough lube anything is possible!"
  ;;
  
  esac
