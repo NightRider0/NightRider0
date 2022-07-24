@@ -4,34 +4,34 @@ source /home/sa/discord.sh
 
 Random
 
-case $(( $RANDOM % 67 + 1 )) in
+case $(( $RANDOM % 60 + 1 )) in
 
  1)
-  discord "Whoever stole the powercord to the slot machine please return it."
-  ;;
+  discord "Whoever stole the power cord to the slot machine please return it."
+ ;;
   
  2)
-  discord "Please dont leave rotten food in the air vent please!"
-  ;;
+  discord "Please don't leave rotten food in the air vent please!"
+ ;;
   
  3)
   discord "Is this thing on?"
-  ;;
+ ;;
   
  4)
-  discord "The restroom in the main hanger is flooding pelase avoid trying to flush used shell casings"
-  ;;
+  discord "The restroom in the main hanger is flooding please avoid trying to flush used shell casings"
+ ;;
   
  5)
-  discord "Whoever stole the tv over the bar we have you on video, if you return it now we wont launch you out the airlock"
-  ;;
+  discord "Whoever stole the tv over the bar we have you on video, if you return it now we won't launch you out the airlock"
+ ;;
  
  6)
-  discord "If you hear a humming coming from crates do not be alarmed. We repeat. Do not be alarmed. Expect sweet things to be available in shops in the future."
+  discord "If you hear humming coming from crates do not be alarmed. We repeat. Do not be alarmed. Expect sweet things to be available in shops in the future."
  ;;
  
  7)
-  discord "Whoever parked there ship in the no parking area you left your lights on!"
+  discord "Whoever parked their ship in the no parking area you left your lights on!"
  ;;
  
  8)
@@ -39,7 +39,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  9)
-  discord "The medical bay is not a parking spot. on a seperate note anyone know how to fix an IV pump?"
+  discord "The medical bay is not a parking spot. on a separate note, does anyone know how to fix an IV pump?"
  ;;
  
  10)
@@ -65,7 +65,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
 
  14)
-  discord "Whoever droped there envelope labled \"awkward and embarrassing nudes\" we have taken the liberty of posting them randomly around the ship!"
+  discord "Whoever dropped there envelope labeled \"awkward and embarrassing nudes\" we have taken the liberty of posting them randomly around the ship!"
  ;;
  
  15)
@@ -75,11 +75,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  16)
-  discord "If your caught cheating in the casino Roland will break your legs and then you will be launched out the airlock!"
+  discord "If you are caught cheating in the casino Roland will break your legs and then you will be launched out the airlock!"
  ;;
  
  17)
-  discord "Whoever did't wipe down the treadmill after they used it, your mom's a hoe!"
+  discord "Whoever didn't wipe down the treadmill after they used it, your mom's a hoe!"
  ;;
 
  18)
@@ -87,7 +87,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  19)
-  discord "Main promenade's gravity has been lowered. we apologize for anybody who was on the ceiling."
+  discord "Main promenade's gravity has been lowered. we apologize to anybody who was on the ceiling."
  ;;
  
  20)
@@ -99,11 +99,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  22)
-  discord "You. yes you. report to the security office."
+  discord "You. yes, you. report to the security office."
  ;;
   
  23)
-  discord "... so last night i was watching the security footage and i seen ... opps wrong chat!" 
+  discord "... so last night I was watching the security footage and I saw... oops wrong chat!" 
  ;;
  
  24)
@@ -131,11 +131,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  30) 
-  discord "The cleaning bots would like me to remind you that water fountains are not a trash can for your used condems!"
+  discord "The cleaning bots would like me to remind you that water fountains are not a trash can for your used condoms!"
  ;;
  
  32)
-  discord "Bingo is cancled this week due to someone parking a ship on the box with all the cards in it"
+  discord "Bingo is canceled this week due to someone parking a ship on the box with all the cards in it"
  ;;
  
  33)
@@ -157,11 +157,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
 
  37)
-  discord "Fire suppresion system may fire randomly, please dont inhale the fumes"
+  discord "Fire suppression system may fire randomly, please don't inhale the fumes"
  ;;
  
  38)
-  discord "The bar tender would like me to remind everyone that tables are not for self defence! if your are caught using them for such your tab will charged accordingly."
+  discord "The bartender would like me to remind everyone that tables are not for self-defense! if you are caught using them for such your tab will be charged accordingly."
  ;;
 
  39)
@@ -173,7 +173,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  41)
-  discord "Good news everyone! the cafitera has just informed me they are serving grey glop next meal."
+  discord "Good news everyone! the cafeteria has just informed me they are serving grey glop next meal."
  ;;
  
  42)
@@ -181,7 +181,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  43)
-  discord "Don't want it, Dont need it, Go fuck yourself!"
+  discord "Don't want it, Don't need it, Go fuck yourself!"
  ;;
  
  44)
@@ -189,7 +189,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  45)
-  discord "I hate you, you hate me lets get together and kill a bottel of bourbon."
+  discord "I hate you, you hate me let's get together and kill a bottle of bourbon."
  ;;
  
  46)
@@ -197,11 +197,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  47)
-  discord "Hey, who took all door handles?"
+  discord "Hey, who took all the door handles?"
  ;;
  
  48)
-  discord "I seen that you son of a bitch"
+  discord "I saw that you son of a bitch"
  ;;
  
  49)
@@ -209,7 +209,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  50)
-  discord "Shane, quit offering extended warranties on the fried chicken -Managment"
+  discord "Shane, quit offering extended warranties on the fried chicken -Management"
  ;;
  
  51)
@@ -221,11 +221,11 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  53)
-  discord "Today's weather is partially cloudy. Not because we simulate weather, but because something is on fire. Yes we are on it."
+  discord "Today's weather is partially cloudy. Not because we simulate weather, but because something is on fire. Yes, we are on it."
  ;;
  
  54)
-  discord "Today's uplifting message of the day is, \"Gun\'s don't kill people. We are all immune to bullets and it is a miracle.\""
+  discord "Today's uplifting message of the day is, \"Guns don't kill people. We are all immune to bullets and it is a miracle.\""
  ;;
  
  55)
@@ -241,7 +241,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  58)
-  discord "Good News Everyone! We will be power cycling the gravity generator with no real reason for the next serveral hours!"
+  discord "Good News Everyone! We will be power cycling the gravity generator with no real reason for the next several hours!"
  ;;
 
  59)
@@ -249,7 +249,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  60)
-  discord "The cleaning bots have just informed me that if they find one more dilldo shoved in the kitchen sink drain they are going on strike"
+  discord "The cleaning bots have just informed me that if they find one more dildo shoved in the kitchen sink drain they are going on strike"
  ;;
  
  61)
@@ -269,7 +269,7 @@ case $(( $RANDOM % 67 + 1 )) in
  ;;
  
  65)
-  discord "We don't swim in your toilet, please dont pee in our pool"
+  discord "We don't swim in your toilet, please don't pee in our pool"
  ;;
  
  66)
