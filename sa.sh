@@ -288,6 +288,10 @@ case $(( $RANDOM % 60 + 1 )) in
   discord "With enough lube anything is possible!"
  ;;
  
+ 68)
+  discord "If you notice a seemingly sentient can of ravioli making it's way through the market place, do NOT under any circumstances attempt to alter its trajectory. There are already three cases of victims in the med bay who had the bones of their feet crushed attempting to stop said sentient ravioli can. Again, do not try to alter it's trajectory."
+ ;;
+ 
  esac
  
  rm /home/sa/sa.sh
