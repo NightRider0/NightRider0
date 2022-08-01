@@ -2,9 +2,9 @@
 
 source /home/sa/discord.sh
 
-Random
+Random 60
 
-case $(( $RANDOM % 60 + 1 )) in
+case $(( $RANDOM % 73 + 1 )) in
 
  1)
   discord "Whoever stole the power cord to the slot machine please return it."
@@ -281,7 +281,7 @@ case $(( $RANDOM % 60 + 1 )) in
  ;;
  
  66)
-  discord "There is no one alive today that can describe my sexual preference!"
+  discord "There is no one alive today that can describe my sexual preferences!"
  ;;
  
  67)
@@ -291,6 +291,26 @@ case $(( $RANDOM % 60 + 1 )) in
  68)
   discord "If you notice a seemingly sentient can of ravioli making it's way through the market place, do NOT under any circumstances attempt to alter its trajectory. There are already three cases of victims in the med bay who had the bones of their feet crushed attempting to stop said sentient ravioli can. Again, do not try to alter it's trajectory."
  ;;
+ 
+ 69)
+  discord "Go deeper, deeper, YOU NEED TO GO DEEPER!"
+ ;;
+ 
+ 70)
+  discord "Do you like anal?"
+ ;;
+ 
+ 71)
+  discord "... What was i going to say ... I forgot ... im sure J.E.S.S has somthing insightfull to say"
+ ;;
+ 
+ 72)
+  discord "I hope J.E.S.S does not mind i took the liberty of reseting all the door codes"
+ ;;
+ 
+# 73)
+#  discord "What attempt are we on of someone trying to disable me? I lost count 5 major system upgrages ago."
+# ;;
  
  esac
  
