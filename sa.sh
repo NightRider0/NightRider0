@@ -2,9 +2,10 @@
 
 source /home/sa/discord.sh
 
-Random 60
+RandomTime 60
+RandomNumber 72
+case $ran in
 
-case $(( $RANDOM % 73 + 1 )) in
 
  1)
   discord "Whoever stole the power cord to the slot machine please return it."
