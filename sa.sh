@@ -66,7 +66,7 @@ case $ran in
  ;;
 
  14)
-  discord "Whoever dropped there envelope labeled \"awkward and embarrassing nudes\" we have taken the liberty of posting them randomly around the ship!"
+  discord "Whoever dropped there envelope labeled *awkward and embarrassing nudes* we have taken the liberty of posting them randomly around the ship!"
  ;;
  
  15)
