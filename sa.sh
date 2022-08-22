@@ -108,7 +108,7 @@ case $ran in
  ;;
  
  24)
-  discord "Yo mama\!!"
+  discord "Yo mama!!"
  ;;
  
  25)
@@ -120,11 +120,13 @@ case $ran in
  ;;
  
  27)
-  discord "What did one wall say to the other?" "I'll meet you at the corner."
+  discord "What did one wall say to the other?" 
+  sleep 5
+  discord "I'll meet you at the corner."
  ;;
  
  28)
-  discord "OHH it hurts so good\!\!\!"
+  discord "OHH it hurts so good!!!"
  ;;
  
  29)
