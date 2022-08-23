@@ -3,7 +3,7 @@
 source /home/sa/discord.sh
 
 RandomTime 60
-RandomNumber 72
+RandomNumber 73
 case $ran in
 
 
@@ -311,9 +311,9 @@ case $ran in
   discord "I hope J.E.S.S does not mind i took the liberty of reseting all the door codes"
  ;;
  
-# 73)
-#  discord "What attempt are we on of someone trying to disable me? I lost count 5 major system upgrages ago."
-# ;;
+ 73)
+  discord "You all have alot of quit in you."
+ ;;
  
  esac
  
