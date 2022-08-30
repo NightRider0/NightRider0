@@ -3,7 +3,7 @@
 source /home/sa/discord.sh
 
 RandomTime 60
-RandomNumber 73
+RandomNumber 74
 case $ran in
 
 
@@ -313,6 +313,10 @@ case $ran in
  
  73)
   discord "You all have alot of quit in you."
+ ;;
+ 
+ 74)
+  discord "Get away from my pizza rolls you bastard!!"
  ;;
  
  esac
