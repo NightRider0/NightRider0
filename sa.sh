@@ -228,7 +228,7 @@ case $ran in
  ;;
  
  54)
-  discord "Today's uplifting message of the day is, \"Guns don't kill people. We are all immune to bullets and it is a miracle.\""
+  discord "Today's uplifting message of the day is, *Guns don't kill people. We are all immune to bullets and it is a miracle.*"
  ;;
  
  55)
