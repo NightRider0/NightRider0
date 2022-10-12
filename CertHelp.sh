@@ -117,6 +117,7 @@ case $WingsInstall in
 	sudo systemctl enable --now wings
 	sleep 5
 	echo 'All Done !!!'
+	echo 'Good bye!'
 	sleep 15
 	clear	
 	exit
