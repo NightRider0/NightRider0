@@ -58,4 +58,66 @@ clear
 echo Okay let me grab thos certs real quick for you ...
 sleep .5
 sudo scp certs@control.t2w.wtf:~/games.key /root/.certs/ && sudo scp certs@control.t2w.wtf:~/games.fullchain /root/.certs/
+echo Done with certs!
+sleep 5
+clear
+echo "Would you like me to install Wings for you? (yes,no)"
+read WingsInstall
 
+case $WingsInstall in
+
+	n | N | no | NO | No)
+	echo Good day, and happy gaming!
+	exit
+	;;
+	
+	y | Y | yes | YES | Yes)
+	echo Lets get wings installed!
+	sleep 5
+	echo Grabbing docker from the internet ...
+	sleep 2 
+	sudo curl -sSL https://get.docker.com/ | CHANNEL=stable bash
+	clear
+	echo Setting docker to start on boot
+	sleep 1
+	sudo systemctl enable --now docker
+	sleep 2
+	echo Making folders for wings ...
+	sudo mkdir -p /etc/pterodactyl
+	sleep .5
+	echo Grabing files from the internet ...
+	sleep 1
+	sudo curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_$([[ "$(uname -m)" == "x86_64" ]] && echo "amd64" || echo "arm64")"
+	clear
+	echo Setting perms ...
+	sleep 1
+	sudo chmod u+x /usr/local/bin/wings
+	echo Done ...
+	sleep 5
+	clear
+	echo Please go to the Node your working on and click Generate Token, please paste the commmand below
+	read token
+	sleep 1
+	echo Thank you!
+	echo Grabbing token standby ...
+	sleep 3
+	tmux new "$token"
+	echo Done!
+	sleep 5
+	clear
+	echo Okay lets see if our wing is working.
+	echo I will start wings in debug mode make ensure it does not crash and is seen in the web portal
+	echo ctr+c to exit wings
+	read -p "Press enter to continue"
+	tmux new "sudo wings --debug"
+	echo If it worked great! if not follow normal troulbshootig or seek help
+	sleep 5
+	echo Setting wing to start on boot ...
+	curl -s https://raw.githubusercontent.com/NightRider0/NightRider0/main/WingsSystemD | sudo tee /etc/systemd/system/wings.service
+	sudo systemctl enable --now wings
+	sleep 5
+	echo 'All Done !!!'
+	sleep 15
+	clear	
+	exit
+	;;
