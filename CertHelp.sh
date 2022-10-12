@@ -121,3 +121,4 @@ case $WingsInstall in
 	clear	
 	exit
 	;;
+esac
