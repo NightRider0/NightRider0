@@ -105,7 +105,7 @@ case $WingsInstall in
 	echo Thank you!
 	echo Grabbing token standby ...
 	sleep 3
-	tmux new "$token"
+	sudo tmux new "$token"
 	echo Done!
 	sleep 5
 	clear
@@ -113,7 +113,7 @@ case $WingsInstall in
 	echo I will start wings in debug mode please ensure it does not crash and is seen in the web portal
 	echo ctr+c to exit wings
 	read -p "Press enter to continue"
-	tmux new "sudo wings --debug"
+	sudo tmux new "wings --debug"
 	echo If it worked great! if not follow normal troulbshootig or seek help
 	sleep 5
 	echo Setting wings to start on boot ...
