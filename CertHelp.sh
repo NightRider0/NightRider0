@@ -16,6 +16,7 @@ echo Making some folders we need ...
 sleep 1
 sudo mkdir -p /etc/letsencrypt/live/$fqdn
 sudo mkdir /root/.certs
+sudo systemctl disable cloud-init
 echo Done!
 echo Linking some files ...
 sleep 1
