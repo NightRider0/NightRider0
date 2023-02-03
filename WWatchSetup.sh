@@ -30,6 +30,7 @@ echo "Let me grab some some keys..."
 scp certs@control.t2w.wtf:~/WingWatchFunctions.sh /sbin/WingWatchFunctions.sh
 echo "Let me grab the script..."
 curl -s https://raw.githubusercontent.com/NightRider0/NightRider0/main/WingWatch.sh | sudo tee /sbin/WingWatch.sh
+chmod +x /sbin/WingWatch.sh
 echo "Making a settings file..."
 echo "#settings that where set by the install script!
 host=$fqdn
