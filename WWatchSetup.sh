@@ -22,7 +22,7 @@ echo "Great! lets get going"
 sleep 1
 echo "Adding an entry to the /etc/host file..."
 echo "The following entry was added for WingWatch" >> /etc/host
-echo "127.0.0.1 $fqdn" >> /etc/host
+echo "127.0.0.1 $fqdn" >> /etc/hosts
 echo "Done!"
 sleep 1
 
