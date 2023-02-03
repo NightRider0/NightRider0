@@ -73,7 +73,7 @@ if [ $alive -eq 0 ] && [ $restart -eq 0 ] && [ $OSrestart -eq 0 ]
    echo "$hostname has failed to restart wings restarting the OS $PasteURL"
    echo 1 > $FILE
    OSrestart=1
-   #init 6
+   init 6
 ## wings is online and happy 
  elif [ $alive -eq 1 ] && [ $restart -eq 0 ] && [ $OSrestart -eq 0 ]
   then
