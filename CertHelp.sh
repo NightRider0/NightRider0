@@ -12,6 +12,9 @@ read -p "Press enter to continue or ctrl+c to quit"
 clear
 echo $fqdn
 sleep 1
+echo installing nedded support programs ...
+apt install sudo
+sudo apt install curl
 echo Making some folders we need ...
 sleep 1
 sudo mkdir -p /etc/letsencrypt/live/$fqdn
