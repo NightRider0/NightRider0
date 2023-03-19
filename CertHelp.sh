@@ -14,7 +14,7 @@ echo $fqdn
 sleep 1
 echo installing nedded support programs ...
 apt install sudo
-sudo apt install curl
+sudo apt install curl tmux htop
 echo Making some folders we need ...
 sleep 1
 sudo mkdir -p /etc/letsencrypt/live/$fqdn
