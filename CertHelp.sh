@@ -30,7 +30,7 @@ sleep 1
 clear
 echo Cutting some keys ... 
 sleep .5
-sudo ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -q
+sudo ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C $fqdn -q
 echo Cleaning the keys ... 
 sleep 2
 clear
