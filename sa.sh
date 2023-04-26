@@ -3,7 +3,7 @@
 source /home/sa/discord.sh
 
 RandomTime 60
-RandomNumber 74
+RandomNumber 76
 case $ran in
 
 
@@ -318,6 +318,16 @@ case $ran in
  74)
   discord "Get away from my pizza rolls you bastard!!"
  ;;
+ 
+ 75)
+  discord "In the event the station experinces a rapid unscheduled disassembly, remain calm ... we are all dead anyway"
+ ;;
+ 
+ 76)
+  discord "Its stupid and I hate it!"
+ ;;
+ 
+ 
  
  esac
  
