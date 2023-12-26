@@ -54,7 +54,7 @@ echo "Please enter a min 0 >> 60"
 read min
 echo Thank you!
 sleep 1
-sudo echo "$min $hour * * * rm -f /root/.certs/games.* && scp certs@control.t2w.wtf:~/games.key /root/.certs/ && scp certs@control.t2w.wtf:~/games.fullchain /root/.certs/" >> /tmp/cron_bkp
+sudo echo "$min $hour * * * /usr/bin/ping -c 1 google.com && rm -f /root/.certs/games.* && scp certs@control.t2w.wtf:~/games.key /root/.certs/ && scp certs@control.t2w.wtf:~/games.fullchain /root/.certs/" >> /tmp/cron_bkp
 plus=$(($min + 5)) 
 sudo echo "$plus $hour 11-17 * 3 /usr/bin/systemctl restart wings.service" >> /tmp/cron_bkp
 sudo crontab /tmp/cron_bkp
